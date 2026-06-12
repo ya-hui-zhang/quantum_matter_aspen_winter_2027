@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 1. Reveal-on-scroll for key blocks
   var targets = document.querySelectorAll(
-    "section h2, section .rule, .org-card, .spk, .info-box, .quick-card, .glance, .note, section p, .pillar h3, .tba, .btn"
+    "section h2, section .rule, .spk, .info-box, .quick-card, .glance, .note, section p, .pillar h3, .tba, .btn"
   );
   targets.forEach(function (el, i) {
     el.setAttribute("data-reveal", "");
